@@ -1,3 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
 
+body {
+  background-color: #f7f2e8;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h2 {
+  color: #1a1a1a;
+  text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+}
+.header .logo-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .logo-menu a {
+  color: #3c0e0e;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.header .logo-menu img {
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+}
+.header .menu-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .menu-items a {
+  color: #3c0e0e;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.header .menu-items a:focus {
+  border-bottom: 2px solid #3c0e0e;
+}
+.header .delivery-btn {
+  color: #fff;
+  background-color: #431b1b;
+  border: none;
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 60px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0px 19px 11px -7px rgba(0, 0, 0, 0.1);
+}
+
+.img-header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -999;
+}
+
+.info {
+  max-width: 40ch;
+  padding-left: 2.5em;
+}
+.info .info-sub {
+  color: #3c0e0e;
+  text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 1.563em;
+  padding-bottom: 0.8em;
+}
+.info .info-title {
+  color: #3c0e0e;
+  text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 1;
+  padding-bottom: 0.2em;
+}
+.info .info-paragraph {
+  color: #3c0e0e;
+  text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=style.css.map */
