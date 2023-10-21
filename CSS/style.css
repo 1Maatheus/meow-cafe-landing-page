@@ -26,7 +26,7 @@ img {
 }
 
 .header {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
@@ -167,11 +167,10 @@ h2 {
 }
 
 .coffee-drinks {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  gap: 90px;
+  justify-content: space-between;
 }
 
 .drink {
@@ -179,7 +178,7 @@ h2 {
   width: 320px;
   border-radius: 40px;
   padding: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,6 +214,11 @@ h2 {
   margin-bottom: -10px;
 }
 
+.drink-btn:active {
+  position: relative;
+  top: 2px;
+}
+
 .drink.drink-1 {
   background-image: linear-gradient(45deg, hsl(2, 37%, 62%) 0%, hsl(3, 39%, 65%) 11%, hsl(3, 41%, 67%) 22%, hsl(3, 43%, 70%) 33%, hsl(3, 46%, 73%) 44%, hsl(3, 49%, 76%) 56%, hsl(3, 52%, 79%) 67%, hsl(3, 57%, 81%) 78%, hsl(2, 64%, 84%) 89%, hsl(2, 73%, 87%) 100%);
 }
@@ -225,6 +229,60 @@ h2 {
 
 .drink.drink-3 {
   background-image: linear-gradient(45deg, hsl(4, 66%, 20%) 0%, hsl(2, 48%, 13%) 51%, hsl(0, 5%, 4%) 100%);
+}
+
+.croissants-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.croissant-content h1 {
+  color: #4d1d1d;
+  font-size: 5em;
+  font-weight: bold;
+  position: relative;
+}
+.croissant-content h1::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+}
+.croissant-content h2 {
+  color: #4d1d1d;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.croissant-content p {
+  color: #4d1d1d;
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 0.1em;
+  max-width: 30ch;
+}
+.croissant-content a {
+  color: #4d1d1d;
+  font-size: 1em;
+  font-weight: bold;
+}
+.croissant-content .croissant-price {
+  color: #f9c4c4;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 0.2em 0.5em;
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+.croissant-img {
+  justify-self: flex-end;
 }
 
 /*# sourceMappingURL=style.css.map */
