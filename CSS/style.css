@@ -285,4 +285,49 @@ h2 {
   justify-self: flex-end;
 }
 
+.coffee-bags {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.coffee-bags .delivery-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  background-image: linear-gradient(to right top, #541511, #7c3f39, #a46a64, #cb9793, #f3c7c4);
+  border-radius: 3em;
+}
+.coffee-bags .delivery-content .coffee-delivery {
+  position: relative;
+  top: -2.6em;
+}
+.coffee-bags .coffee-text {
+  place-items: end;
+}
+.coffee-bags .coffee-text h1 {
+  font-size: 3em;
+  color: #fff;
+}
+.coffee-bags .coffee-text p {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 200;
+}
+.coffee-bags .coffee-delivery-btn {
+  background-color: #fff;
+  font-weight: bold;
+  border: none;
+  font-size: 1em;
+  padding: 10px 40px;
+  border-radius: 60px;
+  width: 60%;
+  cursor: pointer;
+  box-shadow: 0px 19px 11px -7px rgba(0, 0, 0, 0.1);
+  margin-top: 6em;
+}
+.coffee-bags .coffee-delivery-btn:active {
+  position: relative;
+  top: 2px;
+}
+
 /*# sourceMappingURL=style.css.map */
