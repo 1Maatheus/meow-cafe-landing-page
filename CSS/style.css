@@ -214,7 +214,6 @@ h2 {
   }
   .logo {
     width: 100vw;
-    padding: 0em 1em;
     margin-left: -1em;
     display: flex;
     align-items: center;
@@ -229,6 +228,7 @@ h2 {
     margin-left: -1em;
   }
   .mobile-img {
+    width: 100%;
     position: absolute;
     z-index: -999;
   }
