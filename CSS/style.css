@@ -330,4 +330,53 @@ h2 {
   top: 2px;
 }
 
+.about-us {
+  margin-top: -10em;
+  background-image: url(../assets/about-us-pic.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-us-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20em 0em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about-us-content .about-us-text {
+  padding: 0em 4em;
+}
+.about-us-content .about-us-text p {
+  color: #4d1d1d;
+  font-size: 1.25em;
+}
+.about-us-content .about-us-text h1 {
+  color: #4d1d1d;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.about-us-description {
+  padding: 0em 4em;
+}
+.about-us-description .description-paragraph {
+  color: #4d1d1d;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.about-us-description .second-description-paragraph {
+  max-width: 35ch;
+  color: #4d1d1d;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.about-us-description .third-description-paragraph {
+  max-width: 35ch;
+  color: #4d1d1d;
+  font-size: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
