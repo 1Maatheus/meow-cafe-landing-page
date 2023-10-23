@@ -379,4 +379,68 @@ h2 {
   font-size: 1em;
 }
 
+.find-us {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.contact-content .contact-info {
+  padding: 2em 2em;
+  border-radius: 40px 0px 0px 40px;
+  background: #541611;
+  background: linear-gradient(225deg, #541611, #f3c7c4);
+}
+.contact-content .contact-info h1 {
+  font-size: 5em;
+  color: #fff;
+  font-weight: bold;
+  max-width: 1ch;
+  line-height: 1;
+}
+.contact-content .contact-info h1::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin-top: 0.1em;
+}
+.contact-content .contact-info p {
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-top: 1em;
+}
+.contact-content .contact-info span {
+  display: block;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+  margin-top: 1em;
+  max-width: 30ch;
+}
+.contact-content .contact-info a {
+  color: #3c0e0e;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 2em;
+  display: block;
+}
+.contact-content .contact-info .contact-img {
+  position: relative;
+  top: -28em;
+  left: 17em;
+  margin-bottom: -32em;
+}
+.contact-content .contact-place {
+  padding: 2em 2em;
+  border-radius: 0px 40px 40px 0px;
+  background: #ffffff;
+  background: linear-gradient(45deg, #ffffff, #8f433e);
+}
+
 /*# sourceMappingURL=style.css.map */
