@@ -481,4 +481,66 @@ h2 {
   height: 50px;
 }
 
+.footer {
+  max-width: 1200px;
+  margin: 8em auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.footer h1 {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+.footer .info-footer {
+  margin-top: 3em;
+}
+.footer .info-footer p {
+  color: #3c0e0e;
+  font-weight: 300;
+  max-width: 30ch;
+}
+.footer .info-footer .info-footer-paragraph {
+  margin-bottom: 1em;
+}
+.footer .footer-list {
+  display: flex;
+  gap: 0.4em;
+  margin-top: 1em;
+}
+.footer .footer-list img {
+  width: 24px;
+  height: 24px;
+}
+
+.links-footer {
+  margin-top: 3em;
+}
+.links-footer a {
+  color: #3c0e0e;
+  font-weight: 300;
+}
+.links-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.institucional-footer {
+  margin-top: 3em;
+}
+.institucional-footer p {
+  color: #3c0e0e;
+  font-weight: 300;
+}
+.institucional-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.institucional-footer a {
+  color: #3c0e0e;
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=style.css.map */
