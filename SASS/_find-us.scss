@@ -63,5 +63,45 @@
     border-radius: 0px 40px 40px 0px;
     background: #ffffff;
     background: linear-gradient(45deg, #ffffff, #8f433e);
+    h1 {
+      color: #fff;
+      font-size: 2.5em;
+      font-weight: bold;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &::after {
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: #fff;
+        display: block;
+        margin-top: 0.5em;
+      }
+    }
+
+    .address-p {
+      max-width: 25ch;
+      margin-top: 1.5em;
+      margin-left: 1.3em;
+      color: #fff;
+      font-size: 1em;
+      font-weight: 200;
+    }
+
+    .address {
+      color: #fff;
+      font-size: 1em;
+      font-weight: 200;
+      margin-top: 1.5em;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
   }
 }

@@ -442,5 +442,43 @@ h2 {
   background: #ffffff;
   background: linear-gradient(45deg, #ffffff, #8f433e);
 }
+.contact-content .contact-place h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-content .contact-place h1::after {
+  content: "";
+  width: 85%;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin-top: 0.5em;
+}
+.contact-content .contact-place .address-p {
+  max-width: 25ch;
+  margin-top: 1.5em;
+  margin-left: 1.3em;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+}
+.contact-content .contact-place .address {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+  margin-top: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.contact-content .contact-place .address img {
+  width: 50px;
+  height: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
