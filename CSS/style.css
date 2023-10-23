@@ -25,6 +25,16 @@ img {
   max-width: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3c0e0e;
+  border-radius: 10px;
+}
+
 .header {
   max-width: 1200px;
   margin: 0 auto;
