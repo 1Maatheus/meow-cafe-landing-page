@@ -51,3 +51,33 @@
     }
   }
 }
+
+@media (max-width: 420px) {
+  .coffee-bags {
+    width: 90%;
+    margin: 0 auto;
+    img {
+      display: none;
+    }
+    .coffee-delivery-btn {
+      width: 90%;
+      margin-bottom: 30px;
+    }
+  }
+
+  .delivery-content {
+    padding: 0em;
+  }
+
+  .coffee-text {
+    place-items: center !important;
+    h1 {
+      font-size: 2.25em;
+      max-width: 11ch;
+    }
+
+    p {
+      max-width: 20ch;
+    }
+  }
+}

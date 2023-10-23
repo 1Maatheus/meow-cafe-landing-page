@@ -53,3 +53,44 @@
 .croissant-img {
   justify-self: flex-end;
 }
+
+@media (max-width: 420px) {
+  .croissants-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .croissant-content {
+    p {
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    h2 {
+      display: none;
+    }
+    h1 {
+      font-size: 2.25em;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      &::after {
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color: #000;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+      }
+    }
+    .croissant-price {
+      display: none;
+    }
+  }
+
+  .croissant-img {
+    width: 90%;
+  }
+}
