@@ -147,6 +147,7 @@ h2 {
 
 @media (max-width: 420px) {
   .mobile-nav {
+    width: 100svw;
     display: block;
   }
   .mobile-nav h2 {
@@ -228,8 +229,8 @@ h2 {
     margin-left: -1em;
   }
   .mobile-img {
-    width: 100%;
     position: absolute;
+    right: 0;
     z-index: -999;
   }
 }
