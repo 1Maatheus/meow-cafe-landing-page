@@ -15,3 +15,11 @@ function scrollOnClick(event) {
     behavior: "smooth",
   });
 }
+
+const button = document.querySelector(".mobile-btn");
+const navMenu = document.querySelector(".mobile-menu-items");
+
+button.addEventListener("click", () => {
+  button.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
